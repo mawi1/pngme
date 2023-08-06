@@ -8,7 +8,6 @@ mod png;
 use std::path::PathBuf;
 use std::{fs, str::FromStr};
 
-use anyhow::Ok;
 use clap::Parser;
 
 use cli::{Cli, DecodeArgs, EncodeArgs, PrintArgs, RemoveArgs};
